@@ -47,7 +47,7 @@ public class SendEmailEventConsumer {
         Authenticator auth = new Authenticator() {
             //override the getPasswordAuthentication method
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("nani.mullangi97@gmail.com", "qtprvtwiikoqesyv");
+                return new PasswordAuthentication("nkrishnachaitanya0466@outlook.com", "qtprvtwiikoqesyv");
             }
         };
         Session session = Session.getInstance(props, auth);
